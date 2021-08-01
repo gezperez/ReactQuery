@@ -135,8 +135,8 @@ module.exports = {
       rules: {
         '@typescript-eslint/unbound-method': 'off',
         '@typescript-eslint/no-use-before-define': 'off',
-        'no-unused-vars': 'off',
-        '@typescript-eslint/no-unused-vars': ['warn'],
+        'no-unused-vars': 'error',
+        '@typescript-eslint/no-unused-vars': ['error'],
         '@typescript-eslint/explicit-function-return-type': 'off',
         '@typescript-eslint/no-empty-function': 'off',
       },
