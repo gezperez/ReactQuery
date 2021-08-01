@@ -10,7 +10,7 @@ import { navigationRef } from './RootNavigator'
 const Stack = createStackNavigator()
 
 const linking = {
-  prefixes: ['monorepo://'],
+  prefixes: ['reactquery://'],
   config: {
     screens: {
       AuthStack: {
