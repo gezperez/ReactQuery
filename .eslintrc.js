@@ -43,7 +43,6 @@ module.exports = {
       { blankLine: 'always', prev: '*', next: 'function' },
     ],
     'spaced-comment': ['error', 'always'],
-    'react/jsx-filename-extension': 'off',
     'import/extensions': [
       'error',
       'ignorePackages',

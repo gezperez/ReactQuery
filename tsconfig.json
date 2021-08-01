@@ -12,7 +12,7 @@
     "jsx": "react-native",
     "sourceMap": true,
     "noImplicitReturns": true,
-    "noImplicitAny": false,
+    "noImplicitAny": true,
     "lib": ["es7"],
     "baseUrl": ".",
     "outDir": "dist",

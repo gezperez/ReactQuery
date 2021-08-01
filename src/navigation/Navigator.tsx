@@ -2,6 +2,7 @@ import React from 'react'
 import { NavigationContainer } from '@react-navigation/native'
 import { createStackNavigator } from '@react-navigation/stack'
 
+import { LightTheme } from '~/utils/Themes'
 import AuthStack from './stacks/AuthStack'
 import GenericStack from './stacks/GenericStack'
 import HomeStack from './stacks/HomeStack'
@@ -34,7 +35,7 @@ const linking = {
 }
 
 const Navigator = () => (
-  <NavigationContainer ref={navigationRef} linking={linking}>
+  <NavigationContainer ref={navigationRef} linking={linking} theme={LightTheme}>
     <Stack.Navigator screenOptions={{ headerShown: false }}>
       <Stack.Screen name="AuthStack" component={AuthStack} />
       <Stack.Screen name="HomeStack" component={HomeStack} />

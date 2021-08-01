@@ -1,14 +1,10 @@
-import React, { useCallback } from 'react'
-import { TouchableOpacity } from 'react-native'
+import React from 'react'
 
+import { Container } from '~/components'
 import { LoginScreenProps } from '~/navigation/interfaces/auth'
 
 const LoginScreen = ({ navigation }: LoginScreenProps) => {
-  const handleOnPress = useCallback(() => {
-    navigation.navigate('Home')
-  }, [navigation])
-
-  return <TouchableOpacity onPress={() => handleOnPress()} />
+  return <Container loading />
 }
 
 export default LoginScreen
